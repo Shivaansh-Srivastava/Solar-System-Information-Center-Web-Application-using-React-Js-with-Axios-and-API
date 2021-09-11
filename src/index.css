@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("https://images.hive.blog/0x0/https://cdn.steemitimages.com/DQmWaoxh2mnPcGknNVW7VC9GhBYTzBTT8ruVtiNLpRCnNc2/Planet.gif");
+  margin: 0;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-title h1{
+  text-align: center;
+  font-size: 70px;
+}
+.main-title{
+  position: absolute;
+  top:25%;
+  left:10%;
+}
+
+.search-box{
+  margin-left: 310px;
+}
+
+.search-box input{
+  width: 300px;
+  height: 30px;
+}
+
+.search-box button{
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+}
+
+.info{
+  position: absolute;
+  top: 65%;
+  left: 35%;
+}
+
+.column {
+  width: 25%;
+  padding: 0 10px;
+  color: black;
+}
+
+.box{
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  padding-bottom: 0px;
+}
